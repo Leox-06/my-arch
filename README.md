@@ -6,7 +6,7 @@ run these commands to reset arch linux
 
 ```console
 sudo pacman -D  --asdeps $(pacman -Qqe)
-sudo pacman -D --asexplicit base linux linux-firmware
+sudo pacman -D --asexplicit base linux linux-firmware git vim
 su
 sudo pacman -Qttdq | pacman -Rns - 
 ```
