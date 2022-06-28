@@ -31,6 +31,6 @@ sudo vim /etc/sudoers
 # install window manager
 
 ```console
-sudo chmod +x base.sh
-sudo ./base.sh
+sudo chmod +x bspwm.sh
+sudo ./bspwm.sh
 ```
