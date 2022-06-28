@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S --noconfirm git vim neofetch sudo grub ntfs-3g os-prober networkmanager
+pacman -S --noconfirm neofetch sudo grub ntfs-3g os-prober networkmanager
 
 # Enable os-prober
 echo "GRUB_DISABLE_OS_PROBER=\"false\"" >> /etc/default/grub
