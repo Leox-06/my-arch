@@ -23,7 +23,7 @@ hmod +x base.sh
 ### allow members of group wheel to execute any command
 
 ```console
-vim /etc/sudoers
+EDITOR=vim visudo
 ```
 
 > uncomment (delete "#") ---> # %wheel ALL=(ALL:ALL) ALL
