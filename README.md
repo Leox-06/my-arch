@@ -16,17 +16,24 @@ sudo pacman -Qttdq | pacman -Rns -
 ```console
 git clone https://github.com/Leox-06/my-arch
 cd my-arch
-sudo chmod +x base.sh
-sudo ./base.sh
+hmod +x base.sh
+./base.sh
 ```
 
 ### allow members of group wheel to execute any command
 
 ```console
-sudo vim /etc/sudoers
+vim /etc/sudoers
 ```
 
 > uncomment (delete "#") ---> # %wheel ALL=(ALL:ALL) ALL
+
+# reboot system
+
+```console
+reboot
+```
+
 
 # install window manager
 
