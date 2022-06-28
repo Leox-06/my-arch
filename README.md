@@ -38,6 +38,7 @@ reboot
 # install window manager
 
 ```console
+cd my-arch
 sudo chmod +x bspwm.sh
 sudo ./bspwm.sh
 ```
